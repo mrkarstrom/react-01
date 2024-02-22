@@ -1,4 +1,5 @@
 import './App.css';
+import Alert from './components/Alert';
 import ListGroup from './components/ListGroup';
 
 function App() {
@@ -10,6 +11,9 @@ function App() {
 
   return (
     <>
+      <Alert>
+        Hello
+      </Alert>
       <ListGroup
         items={items}
         heading="Cities"
