@@ -36,6 +36,7 @@ function App() {
       <Button color="dark" onClick={() => console.log('Clicked')}>
         Press me!
       </Button>
+      <Button onClick={() => console.log('Clicked')}>Press me!</Button>
 
       <ListGroup
         items={items}
