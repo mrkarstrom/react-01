@@ -3,7 +3,15 @@ import { ReactNode } from 'react';
 interface Props {
   children: ReactNode;
   onClick: () => void;
-  color?: string;
+  color?:
+    | 'primary'
+    | 'secondary'
+    | 'danger'
+    | 'info'
+    | 'success'
+    | 'warning'
+    | 'light'
+    | 'dark';
 }
 
 export const Button = ({ children, onClick, color = 'primary' }: Props) => {
